@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: 2em auto;
+}
+#taskList {
+  list-style: none;
+  padding: 0;
+}
+#taskList li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  user-select: none;     /* stop double-click from highlighting words */
+}
+#taskList li.done {
+  text-decoration: line-through;
+  color: gray;
+}
+.delete {
+  border: none;
+  background: none;
+  color: crimson;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.edit {
+  flex: 1;
+  font-size: 1em;
+  margin-right: 0.5em;
+}
+.help {
+  color: gray;
+  font-size: 0.9em;
+}

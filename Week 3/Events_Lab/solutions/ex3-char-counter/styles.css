@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2em;
+}
+#remaining {
+  color: #555555;
+}
+#remaining.warning {
+  color: darkorange;
+  font-weight: bold;
+}
+#remaining.over {
+  color: red;
+  font-weight: bold;
+}

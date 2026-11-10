@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 2em;
+  min-height: 100vh;
+  box-sizing: border-box;
+  transition: background-color 0.3s, color 0.3s;
+}
+.theme-btn {
+  font-size: 1em;
+  padding: 0.4em 1em;
+  margin-right: 0.5em;
+}
+
+/* TODO: define .theme-light, .theme-dark, and .theme-ocean here */

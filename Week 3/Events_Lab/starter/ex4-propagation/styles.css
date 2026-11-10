@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2em;
+}
+#outer, #middle, #inner {
+  padding: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#outer  { background-color: #f4c7c3; max-width: 400px; }
+#middle { background-color: #fce8b2; }
+#inner  { background-color: #b7e1cd; }
+#log {
+  font-family: Consolas, monospace;
+}

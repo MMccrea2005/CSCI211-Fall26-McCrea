@@ -1,0 +1,8 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2em;
+}
+#remaining {
+  color: #555555;
+}
+/* TODO: add a .warning class (orange) and a class for going over the limit (red) */

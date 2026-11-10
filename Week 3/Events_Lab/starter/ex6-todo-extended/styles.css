@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: 2em auto;
+}
+#taskList {
+  list-style: none;
+  padding: 0;
+}
+#taskList li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+#taskList li.done {
+  text-decoration: line-through;
+  color: gray;
+}
+.delete {
+  border: none;
+  background: none;
+  color: crimson;
+  font-size: 1.2em;
+  cursor: pointer;
+}
