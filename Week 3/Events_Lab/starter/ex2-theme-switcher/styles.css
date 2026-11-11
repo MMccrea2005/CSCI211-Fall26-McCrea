@@ -13,3 +13,17 @@ body {
 }
 
 /* TODO: define .theme-light, .theme-dark, and .theme-ocean here */
+.theme-light {
+  background-color: #ffffff;
+  color: #222222;
+}
+
+.theme-dark {
+  background-color: #1e1e1e;
+  color: #eeeeee;
+}
+
+.theme-ocean {
+  background-color: #0b4f6c;
+  color: #e0f7ff;
+}
