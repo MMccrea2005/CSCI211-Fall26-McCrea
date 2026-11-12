@@ -6,3 +6,11 @@ body {
   color: #555555;
 }
 /* TODO: add a .warning class (orange) and a class for going over the limit (red) */
+
+#remaining.warning {
+  color: orange;
+}
+
+#remaining.over {
+  color: red;
+}
