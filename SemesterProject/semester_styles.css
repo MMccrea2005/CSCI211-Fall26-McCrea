@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+    color: #dad7cd;
+}
+
+body {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #344e41;
+}
+
+.container {
+    display: grid;
+    padding: 20px;
+}
+
+#day1 {
+    border: 1px solid #a3b18a;
+    width: 33%;
+    float: left;
+    clear: left;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    color: #dad7cd;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#day2 {
+    border: 1px solid #a3b18a;
+    width: 33%;
+    float: left;
+    clear: left;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    color: #dad7cd;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+#day3 {
+    border: 1px solid #a3b18a;
+    width: 33%;
+    float: right;
+    clear: right;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    color: #dad7cd;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
