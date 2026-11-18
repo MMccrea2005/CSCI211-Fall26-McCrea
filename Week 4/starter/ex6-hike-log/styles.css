@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 520px;
+  margin: 2em auto;
+}
+form { display: grid; gap: 4px; margin-bottom: 1em; }
+.error { color: firebrick; font-size: 0.9em; margin: 0 0 6px; }
+.invalid { border: 2px solid firebrick; }
+#hikeList { list-style: none; padding: 0; }
+.hike {
+  display: flex; gap: 10px; align-items: center;
+  padding: 8px; border-bottom: 1px solid #ddd;
+}
+.hike .name { flex: 1; font-weight: bold; }
+.hike.easy { border-left: 6px solid seagreen; }
+.hike.moderate { border-left: 6px solid goldenrod; }
+.hike.hard { border-left: 6px solid firebrick; }
+.hike.favorite .name::after { content: " ★"; color: goldenrod; }

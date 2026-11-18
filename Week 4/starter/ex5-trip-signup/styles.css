@@ -1,0 +1,30 @@
+/* Without this rule, form { display: grid; } below would beat the
+   hidden attribute, and form.hidden = true would leave the form showing. */
+[hidden] {
+  display: none;
+}
+body {
+  font-family: Arial, sans-serif;
+  max-width: 460px;
+  margin: 2em auto;
+}
+form {
+  display: grid;
+  gap: 4px;
+}
+fieldset {
+  margin: 6px 0;
+}
+.error {
+  color: firebrick;
+  font-size: 0.9em;
+  margin: 0 0 6px;
+}
+.invalid {
+  border: 2px solid firebrick;
+}
+#confirmation {
+  border: 2px solid seagreen;
+  border-radius: 10px;
+  padding: 1em;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 5: Trip Sign-Up</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <h1>Trip Sign-Up</h1>
+
+  <form id="signupForm" novalidate>
+    <label for="fullName">Name</label>
+    <input type="text" id="fullName" name="fullName">
+    <p class="error" id="fullNameError"></p>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email">
+    <p class="error" id="emailError"></p>
+
+    <label for="groupSize">Group size</label>
+    <input type="number" id="groupSize" name="groupSize"
+           min="1" max="12" value="1">
+    <p class="error" id="groupSizeError"></p>
+
+    <label for="trip">Trip</label>
+    <select id="trip" name="trip">
+      <option value="">Choose a trip</option>
+      <option value="bear-creek">Bear Creek Loop</option>
+      <option value="summit-lake">Summit Lake Trail</option>
+    </select>
+    <p class="error" id="tripError"></p>
+
+    <fieldset>
+      <legend>Experience</legend>
+      <label>
+        <input type="radio" name="level" value="new" checked> New hiker
+      </label>
+      <label>
+        <input type="radio" name="level" value="experienced"> Experienced
+      </label>
+    </fieldset>
+
+    <label>
+      <input type="checkbox" id="waiver" name="waiver">
+      I accept the waiver
+    </label>
+    <p class="error" id="waiverError"></p>
+
+    <button type="submit">Sign up</button>
+  </form>
+
+  <div id="confirmation" hidden></div>
+</body>
+</html>

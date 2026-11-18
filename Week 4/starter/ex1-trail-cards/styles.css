@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 560px;
+  margin: 2em auto;
+}
+#cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.card {
+  border: 1px solid #ccc;
+  border-left: 8px solid #999;
+  border-radius: 8px;
+  padding: 0.6em 1em;
+}
+.card h3 {
+  margin: 0 0 0.3em;
+}
+.card p {
+  margin: 0;
+  color: #555;
+}
+.card.easy { border-left-color: seagreen; }
+.card.moderate { border-left-color: goldenrod; }
+.card.hard { border-left-color: firebrick; }
+#featured .card {
+  background: #fff8dc;
+}
+#totalMiles {
+  font-weight: bold;
+}

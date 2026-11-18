@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 420px;
+  margin: 2em auto;
+}
+#packList {
+  list-style: none;
+  padding: 0;
+}
+#packList li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+  border-bottom: 1px solid #ddd;
+}
+#emptyMsg {
+  color: #777;
+  font-style: italic;
+}
